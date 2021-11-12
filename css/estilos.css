@@ -1,0 +1,59 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+}
+body{
+	background-image: url(img/fondo1.png);
+}
+#juego{	
+	background: skyblue;
+	width: 50%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 11%;
+	height: 500px;
+	border-radius: 20px;
+	box-shadow: 4px 4px 4px black;
+}
+
+
+header{
+	text-align: center;
+	font-size: 30px;
+	margin-bottom: 3%;
+}
+
+section{
+	font-size: 30px;
+	width: 90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.numero{
+	
+	font-size: 20px;
+	padding: 1%;
+	border-radius: 20px;
+}
+#consola{
+	margin-top: 5%;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;	
+}
+#listo{
+	text-align: center;
+	margin: 2%;
+
+}
+#indicador{
+	margin-left: auto;
+	margin-right: auto;
+	width: 50px;
+	height: 50px;
+	background-color: red;
+	border-radius: 50px;
+	box-shadow: 2px 2px 4px black;
+}

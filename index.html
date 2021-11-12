@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>Hola JavaScript  </title>
+    <link rel="stylesheet" href="css/estilos.css">
+    <script type="text/javascript" src="js/logica.js"></script>
+
+  </head>
+  <body>       
+    <div id="contenedor">
+    <div id="juego">
+      <script src="js/logica.js"></script>
+      <header><h1>BIENVENIDO AL JUEGO DEL NUMERO MÁGICO</h1></header> 
+      <article>
+        <section>
+            <p id="reglas"></p>
+              <script>
+                document.getElementById("reglas").innerHTML = "Hay un numero entre el " + getMin() + " y " + getMax() + ". Necesitaras adivinar cual es. Tienes " + getTiempoSeg() + " seg para ganar.<p></p>Tendras algunas pistas para facilitarte el trabajo BUENA SUERTE.";  
+                              
+              </script>
+              <div id="consola"> 
+               <button class="numero" onclick="jugar()"> COMENZAR</button>        
+              <input class="numero" id="numero" type="number" name="nombredelacaja">
+            <button class="numero"let html = document.getElementById("time");
+
+
+setInterval(function(){
+  tiempo = new Date();
+  horas = tiempo.getHours();
+  minutos = tiempo.getMinutes();
+  segundos = tiempo.getSeconds();
+
+  html.innerHTML = horas + " : "+minutos+" : "+segundos;
+},1000);> Enviar </button></div>
+             <span id="time">00:00:00</span>
+            <script src="js/reloj.js"></script>
+            <p id="listo"></p>
+        </section>
+        <div id="indicador"></div>
+
+
+
+
+
+      </article>
+
+          
+      </div>
+      </div>
+  </body>
+</html>
